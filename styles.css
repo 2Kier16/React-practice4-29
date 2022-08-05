@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+img {
+    box-shadow: 1px 1px 2px rgb(14, 14, 14), 0 0 1em rgb(194, 192, 192), 0 0 0.2em rgb(255, 255, 255);
+    height: 350px;
+    width: 30%;
+    border-radius: 550px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em goldenrod;
+    font-weight: 1100em;
+    font-size: 1.2em;
+}
+
+.artists-container {
+    color: goldenrod;
+    display: block;
+    text-align: center;
+}
+
+.nav-link {
+    color: goldenrod;
+}
+
+.nav-link>.icon i:hover {
+    color: rgb(0, 219, 201);
+    transition: 0.3s;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.links-wrapper>.nav-link {
+    width: 300px;
+}
+
+.links-wrapper>.nav-link a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    text-decoration: underline;
+    transition: 0.5s;
+   
+    
+}
+
+.links-wrapper>.nav-link a:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 219, 201);
+    letter-spacing: 3px;
+
+}
